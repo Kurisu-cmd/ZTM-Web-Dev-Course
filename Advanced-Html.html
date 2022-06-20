@@ -6,15 +6,63 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Advanced HTML</title>
 </head>
+<header>
+
+</header>
+<nav>
+
+</nav>
 <body>
     <h1>Advanced HTML</h1>
     <a href="Basic-Html.html">
         <h4>Go Back to Basic HTML</h4>
     </a>
 
-    <!-- Form="<form></form>" -->
-    <form action="">
-        This is a Text Box!<input type="text">
-    </form>
+    <!-- Form="<form></form>"
+        "text" is a text box
+        "submit" is a submit button
+        "reset" is a reset text box button
+    -->
+        <div>
+            <form method="GET">
+                This is a Text Box!<input type="text"><br><br>
+                Email:<input type="email" name="email" required><br>
+                Password: <input type="password" minlength="6" name="password" required><br>
+                Phone:<input type="text" name="phone" required><br>
+                Birthday: <input type="date" name="birthday" required><br>
+                Gender  <br>
+                    Male<input type="radio" name="gender" value="male"> 
+                    Female<input type="radio" name="gender" value="female">
+                    Other<input type="radio" name="gender" value="other">
+                        <br>
+                Cars:
+                <select name="cars" id="" value="cars">
+                    <option value="volvo">volvo</option>
+                    <option value="chevy">chevy</option>
+                    <option value="bmw">bmw</option>
+                </select>
+                <br>
+                How to reach out:
+                    Email<input type="checkbox" name="reachout-email">
+                    Phone <input type="checkbox"><br>
+                <input type="submit" required>
+                <input type="reset">
+                
+            </form>
+    </div>
 </body>
+<footer>
+    
+</footer>
 </html>
+
+
+
+?
+mail=123%40123
+&password=123123
+&phone=123
+&birthday=0003-01-02
+&gender=male
+&cars=volvo
+&reachout-email=on
