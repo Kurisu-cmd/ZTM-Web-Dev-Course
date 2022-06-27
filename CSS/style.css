@@ -9,6 +9,12 @@ body {
     background-size: cover;
 }
 
+nav {
+    text-align: center;
+    border: 5px dotted black;
+    border-radius: 1px;
+}
+
 h2 {
     color: #FE040B;
     text-align: center;
@@ -42,6 +48,10 @@ li {
 #div2 {
     background: rgb(0, 240, 0, 0.2);
     
+}
+
+.cool  {
+    color: black;
 }
 
 /* p {
